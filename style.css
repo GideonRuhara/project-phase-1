@@ -78,3 +78,17 @@ body {
 .input-group{
   height: 20vh;
 }
+.nav__menu{
+  
+    border: 1px solid #555;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  
+}
