@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #CAF0F8
+  background-color: #6A2E35
 }
 .container {
   background-color: #ffffff;
@@ -77,18 +77,29 @@ body {
 }
 .input-group{
   height: 20vh;
+  width: 50%;
+  text-align: right;
+  
 }
 .nav__menu{
   
-    border: 1px solid #555;
-  }
-  
-  li {
-    text-align: center;
-    border-bottom: 1px solid #555;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #d67b7b6e;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+
 }
+.nav__menu a{
+  font-size: 30px;
+  text-decoration: solid;
+}
+.nav__menu a:hover{
+  background-color: #ddd;
+  color: black;
+
+}
+
